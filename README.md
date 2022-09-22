@@ -1,4 +1,4 @@
-# tGSLM, a Generative Spoken Language Model based on continuous word-sized audio tokens
+# Generative Spoken Language Model based on continuous word-sized audio tokens
 
 ## Abstract
 
