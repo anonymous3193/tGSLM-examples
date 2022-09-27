@@ -64,10 +64,11 @@ We show that it is possible to replace the standard input of LM as abstract disc
 The resulting model is the first generative language model based on continuous tokens. Its performance is on par with discrete unit GSLMs in terms of generation quality and zero resource challenge metrics. Moreover, it is 5 times more memory efficient because of its larger 200ms-long units. In addition, the token's embeddings before and after the Lexical Embedder are interpretable phonetically and semantically.</p>
 
     <h2>Example generations</h2>
-    <p>We provides some examples of our 200ms-tGSLM model. For comparison, we also provide example generations from GSLM (Lakhotia et al 2021). The reader may also refer to 
-<a href="https://speechbot.github.io/gslm/index.html">the official website</a> for additional GSLM examples.
-    <p>For sampling, we chose the temperature parameter so that 200ms-tGSLM and GSLM generate batches of prediction with VERT score of 18.3 (as close as possible), the VERT of the LJ corpus. We also sampled batches at the VERT of the Librispeech corpus (VERT=11.3). Batches are composed of 100 sentences of each 30 words not conditionned on a speech prompt. The following examples are extracted from those batches and truncated to last no more than 10seconds. </p>
-
+    	<p>We provides some examples of our 200ms-tGSLM model. For comparison, we also provide example generations from GSLM 
+	(Lakhotia et al 2021). The reader may also refer to <a href="https://speechbot.github.io/gslm/index.html">the official website</a>. 
+	For sampling, we chose the temperature parameter so that 200ms-tGSLM and GSLM generate batches of prediction with VERT score
+        of the LJ corpus (VERT=0.189). We also sampled batches at the VERT of the Librispeech corpus (VERT=0.113). 
+        Samples are not conditionned on a speech prompt. Batches are composed of 100 sentences of 30 words each. <\p>
     <h2>Examples at LJ VERT (VERT=0.189)</h2>
 <div class="row">
         <div class="column left">
